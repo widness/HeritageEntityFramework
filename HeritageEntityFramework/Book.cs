@@ -15,6 +15,6 @@ namespace HeritageEntityFramework
     public partial class Book : Item
     {
         public int ISBN { get; set; }
-        public long Page { get; set; }
+        public int Page { get; set; }
     }
 }

@@ -10,7 +10,7 @@ namespace HeritageEntityFramework
     {
         static void Main(string[] args)
         {
-            Book b = new Book {  Description = "LEs Misérables", ISBN=5, Page=300, Price=12 }
+            Book b = new Book { Description = "Les Misérables", ISBN = 5, Page = 300, Price = 12 };
 
 
             Model1Container context = new Model1Container();
